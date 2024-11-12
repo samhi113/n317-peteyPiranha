@@ -9,7 +9,7 @@ export default function Nav() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/">Inspiration</Link>
+          <Link href="/inspo">Inspiration</Link>
         </li>
         <li>
           <Link href="/">Design</Link>
