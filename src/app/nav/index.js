@@ -4,6 +4,12 @@ import styles from "../nav/nav.module.css";
 export default function Nav() {
   return (
     <nav className={styles.mainNav}>
+      <div className={styles.logo}>
+        <Link href="/">
+        <img src="/petey-icon.png" />
+        </Link> 
+      </div>
+      <div className={styles.links} >
       <ul>
         <li>
           <Link href="/">Home</Link>
@@ -14,7 +20,24 @@ export default function Nav() {
         <li>
           <Link href="/design">Design</Link>
         </li>
+        <li>
+          <Link href="/castle">Castle</Link>
+        </li>
+        <li>
+          <Link href="/smashBros">Smash Bros</Link>
+        </li>
+        <li>
+          <Link href="/appearances">Appearances</Link>
+        </li>
+        <li>
+          <Link href="/sightings">Sightings</Link>
+        </li>
+        <li>
+          <Link href="/rankings">Rankings</Link>
+        </li>
       </ul>
+      </div>
+      
     </nav>
   );
 }

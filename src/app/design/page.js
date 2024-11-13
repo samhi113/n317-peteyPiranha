@@ -13,7 +13,7 @@ export default function Design() {
                 <div className={styles.displayContainer}>
                     <div className={styles.displayBox}>
                         <div className={styles.displayImg}>
-                            <Link href="/origin">
+                            <Link href="/design/origin">
                             <img src="/Petey-2002.webp" />
                             </Link>
                         </div>
@@ -24,7 +24,7 @@ export default function Design() {
                     </div>
                     <div className={styles.displayBox}>
                         <div className={styles.displayImg}>
-                            <Link href="/mariokart">
+                            <Link href="/design/mariokart">
                             <img src="/petey-marioKart.webp" />
                             </Link>
                         </div>
@@ -35,7 +35,7 @@ export default function Design() {
                     </div>
                     <div className={styles.displayBox}>
                         <div className={styles.displayImg}>
-                            <Link href="/smashbros">
+                            <Link href="/design/smashbros">
                             <img src="/petey-smashBros.webp" />
                             </Link>
                         </div>
