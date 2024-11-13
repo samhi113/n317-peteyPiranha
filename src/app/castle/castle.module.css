@@ -13,10 +13,9 @@
     width: 60%;
     padding: 20px;
     border-radius: 8px;
-    overflow: hidden;
+   
   }
   
-  /* Header Image with Overlay */
   .headerImage {
     position: relative;
     width: 100%;
@@ -47,7 +46,6 @@
     font-weight: bold;
   }
   
-  /* Content below header */
   .content {
     padding: 20px;
   }
