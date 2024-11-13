@@ -1,0 +1,19 @@
+.mainContent{
+    /* margin: 0 auto; */
+    width: 100vw;
+    height: 100vh;
+    background-color: #c2d2f2;
+    padding: 20px 0;
+}
+.content{
+    background-color: #203359;
+    color: white;
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.img{
+    width: 25vw;
+    
+}
