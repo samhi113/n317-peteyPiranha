@@ -16,6 +16,7 @@
 }
 
 .header {
+  font-family: "Mario";
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
@@ -34,6 +35,10 @@
   height: 150px;
   background-color: #ddd;
   border-radius: 8px;
+  background-image: url(../../../public/Petey_Piranha_SSBB_artwork.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .textContainer {
@@ -51,14 +56,14 @@
 
 .textBox {
   height: 80px;
-  background-color: white;
+  
   border-radius: 8px;
 }
 
 .bottomImage {
-  width: 80%;
+  /* width: 80%; */
   height: 200px;
-  background-color: #ddd;
+ 
   margin: 0 auto;
   border-radius: 8px;
 }
