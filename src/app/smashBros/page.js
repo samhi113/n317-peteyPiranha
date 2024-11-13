@@ -1,9 +1,11 @@
 "use client";
+import LRButtons from "@/components/LRButtons";
 import styles from "./smash.module.css";
 
 export default function SmashBrosPage() {
   return (
     <main className={styles.mainBackground}>
+      <LRButtons pageBack="castle" pageNext="appearances" />
       <div className={styles.container}>
         <h1 className={styles.header}>Smash Bros</h1>
 

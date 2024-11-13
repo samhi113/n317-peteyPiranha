@@ -6,7 +6,7 @@ import styles from "./inspo.module.css"
 export default function Inspo() {
     return (
         <main >
-            <LRButtons pageBack="home" pageNext="design" />
+            <LRButtons pageBack="" pageNext="design" />
             <h1 class="title">The Origins of Petey Piranha</h1>
             <section>
                 <p className={styles.infoBox}>
