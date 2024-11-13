@@ -12,7 +12,7 @@ export default function Nav() {
           <Link href="/inspo">Inspiration</Link>
         </li>
         <li>
-          <Link href="/">Design</Link>
+          <Link href="/design">Design</Link>
         </li>
       </ul>
     </nav>

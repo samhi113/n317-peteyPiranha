@@ -14,22 +14,20 @@ export default function Inspo() {
             <section>
                 <div className={styles.display1}>
                     <div className={styles.imageD}>
-                        <img src="https://placehold.co/500x350/000000/FFFFFF/jpg" />
+                        <img src="/man-eater.jpg" className={styles.pic}/>
                     </div>
                     <div className={styles.displayText}>
-                        <h3 className={styles.displayTitle}> P Plant </h3>
-                        <p className={styles.displayDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque elit at magna pulvinar, at laoreet urna interdum. 
-                        Suspendisse potenti. Phasellus commodo velit et massa venenatis, vitae ultricies ligula egestas.</p>
+                        <h3 className={styles.displayTitle}>Man Eating Plants </h3>
+                        <p className={styles.displayDescription}>Petey Piranha, a recurring character in Nintendo's Mario series, was inspired by classic Piranha Plant enemies. These originated as "man-eating plants," known for popping out of pipes to surprise players, taking inspiration from the Venus flytrap plant.</p>
                     </div>
                 </div>
                 <div className={styles.display2}>
                     <div className={styles.displayText2}>
-                        <h3 className={styles.displayTitle}> P Plant </h3>
-                        <p className={styles.displayDescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque elit at magna pulvinar, at laoreet urna interdum. 
-                        Suspendisse potenti. Phasellus commodo velit et massa venenatis, vitae ultricies ligula egestas.</p>
+                        <h3 className={styles.displayTitle}> Petey's Debut</h3>
+                        <p className={styles.displayDescription}>Petey Piranha, introduced in Super Mario Sunshine (2002), took this concept further by giving the character more personality and a unique design. He’s oversized, with a distinctive face, leaf-like arms, and, in some games, wings, transforming the standard Piranha Plant into a larger, boss-level character with unique behaviors and characteristics</p>
                     </div>
                     <div className={styles.imageD}>
-                        <img src="https://placehold.co/500x350/000000/FFFFFF/jpg" />
+                        <img src="/Petey-2002.webp" />
                     </div>
                 </div>
             </section>
