@@ -1,12 +1,14 @@
 "use client"
 import Link from "next/link"
 import styles from "./design.module.css"
+import LRButtons from "@/components/LRButtons"
 
 
 export default function Design() {
     return(
         <main>
-            <h1 className={styles.title}>Design</h1>
+            <LRButtons pageBack="inspo" pageNext="castle" />
+            <h1 class="title">Design</h1>
             <section>
                 <div className={styles.displayContainer}>
                     <div className={styles.displayBox}>

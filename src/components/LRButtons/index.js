@@ -4,8 +4,8 @@ export default function LRButtons ({pageBack, pageNext}) {
     var backText = "<"
     var nextText = ">"
 
-    pageBack = "#" + String(pageBack);
-    pageNext = "#" + String(pageNext);
+    pageBack = "/" + String(pageBack);
+    pageNext = "/" + String(pageNext);
 
     return (
         <div>

@@ -3,7 +3,7 @@ import gameStyles from "./game.module.css";
 
 export default function appearancePage() {
     return (<main>
-        <LRButtons pageBack="lore" pageNext="lore" />
+        <LRButtons pageBack="smashBros" pageNext="sightings" />
         <h1 class="title">Games Appeared In</h1>
         <table className={gameStyles.table}>
             <thead>

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Home</h1>
-      <LRButtons pageBack="home" pageNext="lore"></LRButtons>
+      <LRButtons pageBack="home" pageNext="inspo" />
     </main>
   );
 }

@@ -1,9 +1,11 @@
 import Link from "next/link"
 import styles from "./smash.module.css"
+import LRButtons from "@/components/LRButtons"
 
 export default function Origin() {
     return (
         <main>
+            <LRButtons pageBack="castle" pageNext="appearances" />
              <h1 className={styles.title}>Smash Bros Ultimate Design</h1>
             <section>
                 <div className={styles.container}>
