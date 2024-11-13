@@ -1,0 +1,25 @@
+.mainNav {
+    height: 60px;
+    background-color: #0A1626;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px ;
+   
+}
+
+.mainNav ul {
+display: flex;
+justify-content: space-between;
+}
+
+.mainNav li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+.mainNav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
