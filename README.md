@@ -1,6 +1,6 @@
 ## Group Project
 
-[Vercel Link](https://n317-petey-piranha-git-master-sams-projects-742609c1.vercel.app/)
+[Vercel Link](https://n317-petey-piranha.vercel.app/)
 
 ### Who is doing what?
 
