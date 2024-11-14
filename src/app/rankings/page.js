@@ -3,7 +3,7 @@ import rankStyle from "./rank.module.css";
 
 export default function rankingPage() {
     return (<main id="rankPage">
-        <LRButtons pageBack="sightings" pageNext="rankings" />
+        <LRButtons pageBack="sightings" pageNext="faq" />
 
         <h1 class="title">Top 3 Petey Piranha Appearances</h1>
 

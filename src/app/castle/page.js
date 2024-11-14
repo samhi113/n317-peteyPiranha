@@ -5,7 +5,7 @@ import styles from "./castle.module.css";
 export default function CastlePage() {
   return (
     <main className={styles.mainBackground}>
-      <LRButtons pageBack="design" pageNext="smashBros" />
+      <LRButtons pageBack="plantTypes" pageNext="smashBros" />
       <div className={styles.container}>
         <header className={styles.headerImage}>
           <div className={styles.overlay}>

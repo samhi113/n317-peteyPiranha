@@ -7,10 +7,12 @@ export default function appearancePage() {
         <h1 class="title">Games Appeared In</h1>
         <table className={gameStyles.table}>
             <thead>
-                <td>Game Title</td>
-                <td>Year</td>
-                <td>Console</td>
-                <td>Note</td>
+                <tr>
+                    <th>Game Title</th>
+                    <th>Year</th>
+                    <th>Console</th>
+                    <th>Note</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>

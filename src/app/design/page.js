@@ -7,7 +7,7 @@ import LRButtons from "@/components/LRButtons"
 export default function Design() {
     return(
         <main>
-            <LRButtons pageBack="inspo" pageNext="castle" />
+            <LRButtons pageBack="inspo" pageNext="plantTypes" />
             <h1 class="title">Design</h1>
             <section>
                 <div className={styles.displayContainer}>
