@@ -35,6 +35,9 @@ export default function Nav() {
         <li>
           <Link href="/rankings">Rankings</Link>
         </li>
+        <li>
+          <Link href="/faq">FAQ</Link>
+        </li>
       </ul>
       </div>
       

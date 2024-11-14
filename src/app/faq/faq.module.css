@@ -1,0 +1,47 @@
+.title {
+  font-size: 50px;
+  /* background-color: wheat; */
+  text-shadow: 2px 2px 4px rgba(32, 51, 89, 0.3);
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formLayout {
+  background-color: #203359;
+  color: white;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 60%;
+}
+
+.variable {
+  /* background-color: antiquewhite; */
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.variable label {
+  font-size: 30px;
+}
+.variable input {
+  width: 650px;
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.variable shortInput {
+  width: 600px;
+}
+
+.list {
+  color: white;
+}
