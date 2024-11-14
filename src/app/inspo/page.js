@@ -1,11 +1,13 @@
 "use Client"
+import LRButtons from "@/components/LRButtons"
 import styles from "./inspo.module.css"
 
 
 export default function Inspo() {
     return (
         <main >
-            <h1 className={styles.title}>The Origins of Petey Piranha</h1>
+            <LRButtons pageBack="" pageNext="design" />
+            <h1 class="title">The Origins of Petey Piranha</h1>
             <section>
                 <p className={styles.infoBox}>
                 Petey Piranha, a character from the Mario series, draws inspiration from classic carnivorous plants with a quirky twist. His design amplifies the intimidating traits of a Piranha Plant, evolving it into a towering, anthropomorphic figure with vibrant colors, a toothy grin, and a playful yet menacing personality. Influenced by pop culture’s fascination with exaggerated flora and fauna, Petey embodies the lively, chaotic nature of Mario's world, blending a sense of danger with charm. His oversized leaf arms and spotted petals highlight his monstrous yet whimsical character, making him a memorable and visually dynamic adversary in the Mario universe.
